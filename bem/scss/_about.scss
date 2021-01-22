@@ -1,0 +1,78 @@
+.about {
+    &__body {
+        width: 900px;
+        height: 640px;
+        margin: auto;
+    }
+    &__title {
+        margin-bottom: 30px;
+    }
+    &__text {
+        margin: auto;
+        width: 662px;
+        height: 64px;
+        font-family: Myriad Pro;
+        font-size: 14px;
+        line-height: 1.86;
+        text-align: center;
+        color: #868585;
+        margin-bottom: 65px;
+    }
+    &__row {
+        display: flex;
+        flex-direction: row;
+        margin: 0px -15px;
+    }
+    &__column {
+        padding: 0px 15px;
+        flex: 0 0 33.333%;
+    }
+}
+.title {
+    font-family: Myriad Pro;
+    font-size: 34px;
+    letter-spacing: 5.44px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+    &:after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 50%;
+        width: 81px;
+        height: 1px;
+        background-color: #000000;
+        margin: 0px 0px 0px -25px;
+    }
+}
+.item-about {
+    &__icon {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        border-radius: 50%;
+
+        border: 1px solid #ada074;
+        width: 92px;
+        height: 92px;
+    }
+    &__title {
+        margin-top: 42px;
+        margin-bottom: 36px;
+        font-family: Myriad Pro;
+        font-size: 22px;
+        letter-spacing: 3.52px;
+        text-align: center;
+        color: #000000;
+    }
+    &__text {
+        font-family: Myriad Pro;
+        font-size: 14px;
+        line-height: 1.86;
+        text-align: center;
+        color: #868585;
+    }
+}
